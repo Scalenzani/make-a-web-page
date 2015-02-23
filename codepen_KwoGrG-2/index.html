@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Stephen Calenzani</title>
+
+</head>
+
+<body>
+
+  <h1>Udacity Nanodegree Notes<br>Intro to Programming</h1>
+
+<h2>Overview</h2>
+
+<h3>Thinking like a programmer</h3>
+
+Procedural thinking - taking a big problem and breaking it down the solution into a set of steps<br>
+
+<ul>
+<li>Abstract thinking - 1+1=2<br>
+<li>Systematic debugging - systemic way of solving problems<br>
+<li>Technological empathy - thinking the way a computer does - looking at code and imagining what it looks like in a webpage, and looking at a webpage and seeing code
+<li>Systems thinking - taking one big idea and breaking it down into component parts (other 4 mentioned, above)
+</ul>
+
+<h3>Summary of 1st Course</h3>
+<ul>
+<li>Lesson one: The basics of the web and HTML - see HTML as a webpage
+<li>Lesson two: Creating a structured doc with HTML - look at web page and predict what HTML will look like
+<li>Lesson three: Adding style to structure with CSS
+</ul>
+
+<h2>Lesson one: Basics of the web and HTML</h2>
+
+<h3>The Web</h3>
+
+<ul>
+<li>Invented 1990’s - now has 30 billion webpages, it's basically a collection of HTML documents
+<li>HTML = Hypertext markup language: HTML language is what glues everything together on the web - text, videos, images
+<li>The links between webpages is what makes the web “weblike”
+</ul>
+
+<h3>Major Pieces of the web</h3>
+
+The web is basically made up of three components: You, your computer and your browser; the internet, and servers.<br>
+
+<ul>
+<li>The browser makes requests via the internet to servers with a protocol called HTTP
+<li>The server responds with files that your browser displays - browsers include IE, Chrome, Firefox
+<li>Servers are computers just like yours, but are optimized for hosting files instead of browsing
+</ul>
+
+<h3>HTML</h3>
+
+A. HTML docs are the heart of the web and are made up of:
+
+<ul>
+<li>Text content - what you see
+<li>Mark up - what it looks like or how it is arranged (not seen)
+<li>References to other docs (images, videos)
+<li>Links to other pages
+</ul>
+
+B. HTML markup
+<br>
+<br>
+HTML markup is made up of tags, which are constructed like this: 
+
+&lt;opening tag&gt;content&lt;/closing tag&gt;
+<br>
+<br>
+Examples:
+
+<ul>
+<li>&lt;b&gt; tag - makes content bold
+<li>&lt;em&gt; tag - means emphasis - makes content italicized
+<li>&lt;a&gt; tag - anchor tag - this is for making links
+</ul>
+
+C. HTML attribute tags
+<br>
+<br>
+An HTML attribute is a modifier of an HTML element. They are usually added to a HTML start tag, which along with content and end tag comprises most HTML elements. Particular attributes are only supported by particular element types; if they are added to elements that do not support them they will not function (from the <a href="http://en.wikipedia.org/wiki/HTML_attribute">HTML attribute</a> Wiki page).
+<br>
+<br>
+For example:
+<br>
+<br>
+&lt;tag ATTR = “value”&gt;contents&lt;/tag&gt;
+<br>
+<br>
+Examples:
+
+<ul>
+<li>&lt;a href = “www.reddit.com”&gt;derp &lt;/a&gt; = derp
+<li>&lt;a href = “www.w3c.com”&gt; HTML &lt;/a&gt; = HTML
+<li>&lt;a href = “www.udacity.com”&gt;my favorite &lt;/a&gt; = my favorite
+</ul>
+
+D. Image tag
+<br>
+<br>
+&lt;img&gt; is used to download images. For example:
+
+<ul>
+<li>&lt;img src = “url” alt = “text”&gt;
+</ul>
+
+“url” is for the image to download<br>
+“text” is for broken requests - the text that is displayed if image does not load
+
+<ul>
+<li>&lt;img src = “http://www.udacity.com/cs253x/hipmunk.png” alt&gt; = “hipmunk!”
+</ul>
+
+The image tag does not have or need a closing tag - it’s a “void tag” - has no content
+<br>
+<br>
+E. Whitespace
+<br>
+<br>
+When you enter text in multiple lines, in HTML it renders it in single space
+
+&lt;br&gt; is to create a space break. This is another example of a void tag.
+
+<ul>
+<li>To make double spaces you can use either a &lt;br&gt; or a &lt;p&gt; tag.
+<li>To use &lt;br&gt; as a double space, you just use two in a row: &lt;br&gt; &lt;br&gt;
+</ul>
+
+&lt;p&gt; is a “block text” - you need a closing tag: &lt;p&gt; narrative &lt;/p&gt;
+<br>
+<br>
+Difference between "br" and "p":
+
+<ul>
+<li>"br" is an “inline element” - just ends a line 
+<li>"p" narrative is a “block element” - it makes an invisible box to put narrative. The box has width and height.
+</ul>
+
+F. Span/Div Elements
+<br>
+<br>
+The "Span" and "Div" tags just contain their content:
+
+<ul>
+<li>Span is inline and is written like this: &lt;div&gt; text &lt;/div&gt;<br>
+<li>Div is block and is written like this: &lt;span&gt; text &lt;/span&gt;
+</ul>
+
+You can add attributes called “class” to Span/Div elements:
+
+<ul>
+<li>&lt;div class = “foo”&gt; text &lt;/div&gt;
+<li>&lt;span class = “bar”&gt; text &lt;/span&gt;
+</ul>
+
+G. Structure of HTML Document
+<br>
+<br>
+&lt;!DOCTYPE HTML&gt; - doctype<br>
+&lt;html&gt;<br>
+&lt;head&gt;<br>
+&lt;body&gt;<br>
+&lt;b&gt;text&lt;/b&gt;<br>
+&lt;/body&gt;<br>
+&lt;/html&gt;<br>
+
+</body>
+
+</html>
